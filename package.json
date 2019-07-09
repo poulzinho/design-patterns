@@ -4,7 +4,7 @@
   "description": "Some design patterns",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --require ./node_modules/ts-node/register --recursive ./src/**/*test.ts"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/poulzinho/design-patterns/issues"
   },
-  "homepage": "https://github.com/poulzinho/design-patterns#readme"
+  "homepage": "https://github.com/poulzinho/design-patterns#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "typescript": "^3.5.3",
+    "ts-node": "^8.3.0"
+  }
 }
