@@ -1,0 +1,22 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Some design patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poulzinho/design-patterns.git"
+  },
+  "keywords": [
+    "design-patterns"
+  ],
+  "author": "poulzinho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poulzinho/design-patterns/issues"
+  },
+  "homepage": "https://github.com/poulzinho/design-patterns#readme"
+}
